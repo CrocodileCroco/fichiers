@@ -1,0 +1,183 @@
+/* ==UserStyle==
+@name           Wikimini HD
+@namespace      fr.wikimini.org
+@version        1.0.0
+@description    Wikimini HD Beta
+@author         BachirZ
+==/UserStyle== */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@-moz-document url-prefix("https://fr.wikimini.org/") {
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-attachment: fixed;
+    color: white;
+}
+
+.search-box, .tool-box, .option-box, .box-bottom {
+    background-color: transparent;
+    border-radius: 25px;
+    border: solid 2px #fff;
+    padding: 20px;
+    margin-top: 10px;
+    width: 100%;
+}
+.search-content h5 {
+    color: black;
+}
+div#simpleSearch input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    color: black;
+}
+::placeholder {
+    color: black;
+    opacity: 1;
+}
+div#simpleSearch {
+    border-radius: 5px;
+    height: 2em;
+    box-shadow: none;
+}
+.mw-headline {
+    color: white;
+}
+
+h1 {
+    border-bottom: 1px solid #fff;
+    color: white;
+}
+
+div[style*="font-size: 0.9em; line-height: 1.3em; padding: 10px; background-color: rgb(255, 243, 234); margin-top: 20px; -moz-border-radius-topleft: 20px; -moz-border-radius-topright: 20px; -moz-border-radius-bottomright: 20px; -moz-border-radius-bottomleft: 20px;"]{
+    all: unset;
+    font-size: 0.9em;
+    line-height: 1.3em;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    -moz-border-radius-topleft: 20px;
+    -moz-border-radius-topright: 20px;
+    -moz-border-radius-bottomright: 20px;
+    -moz-border-radius-bottomleft: 20px;
+}
+
+div[style*="font-size: 0.9em; line-height: 1.3em; padding: 10px; background-color: #E9F3FF; margin-top: 20px; -moz-border-radius-topleft: 20px; -moz-border-radius-topright: 20px; -moz-border-radius-bottomright: 20px; -moz-border-radius-bottomleft: 20px;"] {
+    all: unset;
+    font-size: 0.9em;
+    line-height: 0;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    -moz-border-radius-topleft: 20px;
+    -moz-border-radius-topright: 20px;
+    -moz-border-radius-bottomright: 0;
+    -moz-border-radius-bottomleft: 20px;
+    margin-top: 12px;
+}
+
+a, a:visited {
+    color: white;
+}
+
+.blackbold {
+    color: white !important;
+}
+
+.search-box h5, .tool-box h5, .content-bottom h5, .option-box h5 {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 0px;
+    font-weight: bold;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+table a, a:visited{
+    color:#ffb200;
+}
+
+li a, a:visited{
+    color:white;
+}
+
+canvas {
+    border-radius: 65px;
+}
+
+img[alt*="Image du jour"] {
+    filter: grayscale(50%) saturate(0) brightness(1000%);
+    -webkit-filter: grayscale(50%) saturate(0) brightness(1000%);
+}
+
+#localNotice {
+    opacity:0;
+}
+
+#couche1 {
+    border: 1px solid #fff;
+}
+
+#couche2b {
+    opacity: 0;
+}
+
+#couche2a {
+    opacity: 0;
+}
+
+.cat_forumrows {
+    border-bottom: 2px solid #f0f0f000;
+    background-color: #f9f9f900;
+    padding: 5px;
+    margin-top: 2px;
+    color:white;
+}
+
+.cat_forumrows a {
+    color:white;
+}
+
+.cat_forumrows a:visited {
+    color:white;
+}
+
+
+.thread_col_head a:visited {
+    color: black;
+}
+
+.thread_col_head a {
+    color: black;
+}
+
+#cat_forumdisc {
+    color: white;
+}
+
+#cat_list_lastaction_date{
+    color:white;
+}
+
+#cat_list_lastaction_title a, a:visited {
+    color:white;
+}
+
+#cat_list_lastaction_user a, a:visited {
+    color:white;
+}
+
+#TopMenuLinksHolder a, a:visited {
+    color:black;
+}
+
+#contentSub, #contentSub2 {
+    font-size: 84%;
+    line-height: 1.2em;
+    margin: 0 0 1.4em 1em;
+    color: #fff;
+    width: auto;
+}
+}
