@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wikimini HD
 @namespace      fr.wikimini.org
-@version        1.0.9
+@version        1.1.0
 @description    Wikimini HD Beta
 @author         BachirZ
 ==/UserStyle== */
@@ -370,6 +370,22 @@ img[alt*="Image du jour"] {
     
     .mw-body a.external {
     color: #fff;
+    }
+    
+    .sticky a{
+        color:black;
+    }
+    
+    .sticky a:visited{
+        color:black;
+    }
+    
+    .quote_title {
+        color:black;
+    }
+    
+    .quote_title a a:visited{
+        color:black;
     }
 }
 
