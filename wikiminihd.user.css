@@ -180,4 +180,59 @@ img[alt*="Image du jour"] {
     color: #fff;
     width: auto;
 }
+    .lqt-post-wrapper {
+    padding: 0.5em 1em;
+        padding-right: 1em;
+        padding-bottom: 0.5em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    border: 0.2em solid #000;
+        border-top-color: #000;
+        border-top-style: solid;
+        border-top-width: 0.2em;
+    background: #000;
+    border-top: none;
+    position: relative;
+    color: white;
+}
+    .lqt-post-wrapper a, a:visited {
+    color: white;
+}
+    .thread-collapse-control a {
+    display: inline-block;
+    outline: none;
+    width: 17px;
+    height: 17px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAIAAAC0D9CtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABLSURBVDhP1csxDgAgCARB/v9ppVgTUVAxNk4Je/KFskPX4xOjG/D0UMz4eyhcJBa/CJXFb4Gw4bpG23DdIj8fKBapjUoP1M3mKZEKuJLXKRxo4UAAAAAASUVORK5CYII=) 0 0 no-repeat;
+    text-indent: -9999px;
+    overflow: hidden;
+
+}
+    .thread-collapse-control a.thread-control-collapsed {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAIAAAC0D9CtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABGSURBVDhPYxho8P//fygLAzBBaVIAI5RGBXBLGBmxKKCSPWg+wbSKGvZgDS40qyi2B0+cIFtFmT14LIEAuFXk2DN4AQMDAF2EEg/U2mlGAAAAAElFTkSuQmCC) 0 0 no-repeat;
+
+}
+    
+    .lqt-command-reply a {
+    padding-left: 26px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAARCAIAAABfOGuuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABNSURBVDhP5dE5DgAgCAVR8P53RhCCS2GAxMppsHn5hfA2IrLXqNkNtMoE41zmmPcNOz7n0mRxw6GeuEEUImupHS23plNbLAuzUpFFA+j7xiD8FySLrQAAAABJRU5ErkJggg==) !important;
+
+}
+    
+    .lqt-thread-actions-icon {
+    display: block;
+    height: 2em;
+    padding-right: 18px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAIAAAC0D9CtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABLSURBVDhP1csxDgAgCARB/v9ppVgTUVAxNk4Je/KFskPX4xOjG/D0UMz4eyhcJBa/CJXFb4Gw4bpG23DdIj8fKBapjUoP1M3mKZEKuJLXKRxo4UAAAAAASUVORK5CYII=);
+
+}
+    
+    .lqt-thread-toolbar-menu ul {
+    background-color: black;
+}
+    
+    button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    color: #000;
+}
+    
 }
